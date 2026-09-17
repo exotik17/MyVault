@@ -1,6 +1,3 @@
-# Anteproyecto — Programación Móvil 2
-
-## Nombre del proyecto
 **MyVault**
 
 ## Objetivo general
@@ -21,40 +18,10 @@ Las personas acumulan objetos en distintos espacios de la casa (no solo "bodegas
 - Registrar fecha de compra y vencimiento de garantía
 - Notificaciones locales cuando una garantía está por vencer
 
-### Módulo 3 — Ubicación física (diferenciador técnico)
-- Generar códigos QR para cajas/zonas de almacenamiento
-- Escanear un QR y ver automáticamente todo su contenido
-- Registrar la última vez que se "visitó" o consultó cada zona (manual o vía escaneo de QR)
-
-### Módulo 4 — Sugerencias de desapego (reto principal del proyecto)
+### Módulo 3 — Sugerencias de desapego (reto principal del proyecto)
 - Timestamp de última interacción por **objeto** (registro, búsqueda, marcado como usado)
 - Timestamp de última visita por **zona** (última vez que se abrió/consultó esa zona)
 - Score combinado de inactividad: tiempo sin tocar el objeto + tiempo sin visitar su zona + categoría del objeto (la ropa de temporada no pesa igual que un electrodoméstico)
 - Reporte periódico (ej. mensual) con dos vistas:
   - "Objetos que no usas" — candidatos individuales a donar/vender
   - "Zonas que no visitas" — áreas completas de baja actividad, útiles cuando hay poca data por objeto pero la zona entera lleva tiempo sin revisarse
-
-## Funcionalidades técnicas a evidenciar (para la materia)
-| Funcionalidad | Tecnología sugerida |
-|---|---|
-| Cámara y galería | CameraX / AVFoundation / image_picker |
-| OCR de facturas (fecha, monto) | ML Kit Text Recognition / Tesseract |
-| Generación y lectura de QR | ZXing / MLKit Barcode |
-| Notificaciones locales | WorkManager / Notification API |
-| Autenticación de usuario | Firebase Auth |
-| Persistencia local | Room / SQLite |
-| Sincronización en la nube | Firebase Firestore / REST API propio |
-| Arquitectura | MVVM |
-
-## Alcance por prioridad (si el tiempo apremia)
-1. CRUD de objetos + foto + ubicación (base del proyecto)
-2. Notificaciones de vencimiento de garantía
-3. QR para zonas de almacenamiento + registro de última visita
-4. Score y reporte de desapego (objeto + zona) — reto técnico central
-5. OCR automático de facturas *(opcional / stretch goal)*
-
-## Entregables esperados
-- App funcional (APK o build de prueba)
-- Backend/base de datos configurada
-- Documento de arquitectura
-- Manual de usuario breve
