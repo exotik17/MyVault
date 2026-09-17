@@ -1,4 +1,4 @@
-#MyVault#
+# MyVault
 
 ## Objetivo general
 Desarrollar una aplicación móvil que permita a los usuarios registrar sus objetos personales indicando su ubicación física de almacenamiento (clósets, cajones, cuartos útiles, etc.), así como la información de compra, factura y garantía asociada, y que además sugiera de forma inteligente qué objetos y zonas de almacenamiento llevan mucho tiempo sin usarse, para apoyar decisiones de desapego (donar, vender o descartar).
