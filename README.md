@@ -39,3 +39,33 @@ Las personas acumulan objetos en distintos espacios de la casa (no solo "bodegas
 ## Pantalla 2:
 
  ![Pantalla 2](docs/screenshots/3.png)
+
+
+ 
+## Paleta de colores:
+
+ ![Pantalla 2](docs/screenshots/colores.png)
+
+## Flujo de la app:
+
+```mermaid
+flowchart TD
+    Start([Abrir app]) --> Home[Home]
+
+    Home --> Nuevo[Nuevo objeto]
+    Nuevo --> Home
+
+    Home --> Detalle[Detalle de objeto]
+    Detalle --> Editar[Editar objeto]
+    Detalle --> Marcar[Marcar como usado]
+    Detalle --> Eliminar[Eliminar objeto]
+    Editar --> Detalle
+
+    Home --> Desapego[Desapego: revisión mensual]
+    Desapego --> ObjInact[Objetos sin usar]
+    Desapego --> ZonInact[Zonas sin visitar]
+    ObjInact --> Donar[Donar o vender]
+    ObjInact --> Conservar[Conservar]
+    ZonInact --> Revisar[Revisar zona]
+    Revisar --> Detalle
+```
