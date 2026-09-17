@@ -25,3 +25,17 @@ Las personas acumulan objetos en distintos espacios de la casa (no solo "bodegas
 - Reporte periódico (ej. mensual) con dos vistas:
   - "Objetos que no usas" — candidatos individuales a donar/vender
   - "Zonas que no visitas" — áreas completas de baja actividad, útiles cuando hay poca data por objeto pero la zona entera lleva tiempo sin revisarse
+
+## Pantalla home:
+
+ ![Pantalla Home](docs/screenshots/1.png)
+ 
+
+## Pantalla 1:
+
+ ![Pantalla 1](docs/screenshots/2.png)
+ 
+
+## Pantalla 2:
+
+ ![Pantalla 2](docs/screenshots/3.png)
