@@ -69,3 +69,7 @@ flowchart TD
     ZonInact --> Revisar[Revisar zona]
     Revisar --> Detalle
 ```
+
+
+## Evidencia de funcionamiento de la app desde android studio:
+
