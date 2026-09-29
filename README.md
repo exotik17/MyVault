@@ -73,3 +73,5 @@ flowchart TD
 
 ## Evidencia de funcionamiento de la app desde android studio:
 
+ ![funcional1](docs/screenshots/funcional1)
+  ![Pantalla 2](docs/screenshots/funcional2)
