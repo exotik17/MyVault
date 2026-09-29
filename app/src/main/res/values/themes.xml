@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme base — Compose maneja todo visualmente, pero AGP necesita este entry -->
+    <style name="Theme.MyVault" parent="android:Theme.Material.Light.NoActionBar" />
+</resources>
